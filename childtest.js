@@ -4,6 +4,7 @@ exports.sleep = sleep;
 function sleep() {
   sleeper(5000, function() {
     console.log('DONE');
+    // throw new Error('Oh noes!');
   });
 }
 
